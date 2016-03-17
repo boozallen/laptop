@@ -1,0 +1,8 @@
+chsh -s $(which zsh)
+git clone git://github.com/thoughtbot/dotfiles.git ~/.dotfiles
+env RCRC=$HOME/.dotfiles/rcrc rcup
+rcup
+brew install petere/auto-update/brew-auto-update --HEAD
+ln -sfv /usr/local/opt/brew-auto-update/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.brew-auto-update.plist
+brew install phantomjs
