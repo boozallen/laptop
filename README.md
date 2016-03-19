@@ -8,9 +8,8 @@ It uses a lot of scripts from thoughtbot.
 Install
 -------
 
-Download, review, then execute the script:
+Install is easy, just run this:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/boozallen/laptop/master/setup
-sh setup 2>&1
+curl -fsSL https://raw.githubusercontent.com/boozallen/laptop/master/setup | /bin/bash
 ```
