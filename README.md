@@ -11,5 +11,6 @@ Install
 Install is easy, just run this:
 
 ```sh
+echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
 curl -fsSL https://raw.githubusercontent.com/boozallen/laptop/master/setup | /bin/bash
 ```
