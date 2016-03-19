@@ -12,5 +12,5 @@ Download, review, then execute the script:
 
 ```sh
 curl --remote-name https://raw.githubusercontent.com/boozallen/laptop/master/setup
-sh setup 2>&1 | tee ~/laptop.log
+sh setup 2>&1
 ```

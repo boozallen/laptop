@@ -1,5 +1,4 @@
-cd ~
 curl -o ~/.laptop.local --remote-name https://raw.githubusercontent.com/boozallen/laptop/master/laptop.local
 curl -o ~/.vimrc.local --remote-name https://raw.githubusercontent.com/boozallen/laptop/master/vimrc.local
 curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
-sh mac 2>&1 | tee ~/bah-laptop.log
+sh mac 2>&1 | tee ~/laptop.log
