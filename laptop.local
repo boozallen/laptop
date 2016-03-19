@@ -7,3 +7,5 @@ brew install petere/auto-update/brew-auto-update --HEAD
 ln -sfv /usr/local/opt/brew-auto-update/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.brew-auto-update.plist
 brew install phantomjs
+clear
+echo "ALL DONE!!!!!!!!!!!"
